@@ -1,0 +1,238 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Cactus Classical Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #887bb0;
+    overflow-x: hidden;
+}
+
+.cactus-classical-serif-regular {
+    font-family: "Cactus Classical Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .top {
+    background-color: #887bb0;
+    color: #887bb0;
+    padding: 1em 0;
+    height: 64px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+  
+.top {
+  background-color: #887bb0;
+  color: #887bb0;
+  padding: 1em 0;
+  height: 64px;
+  width: 100vw;
+  position: absolute;
+  z-index: 0;
+}
+
+.icon-container {
+  width: 100px; /* Tamaño del círculo */
+  height: 100px;
+  background-color: white; /* Color de fondo */
+  border-radius: 50%; /* Hace el círculo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.icon-container img {
+  width: 60%; /* Ajusta el tamaño dentro del círculo */
+  height: 60%; /* Mantiene la proporción */
+}
+
+.wa { right: 124px; top: 28px; }
+.fb { right: 74px; top: 28px; }
+.ig { right: 24px; top: 28px; }
+
+/* Asegura que los íconos se adapten bien */
+.wa, .fb, .ig {
+  width: 40px; /* Ajusta según el tamaño del icono */
+  height: 40px;
+}
+
+.fb img {
+  width: 75%;
+  height: 75%;
+}
+
+.first-image {
+  background-image: url("assets/inicio.png");
+  background-size: contain; /* Hace que la imagen encaje sin recortarse */
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 520px;
+  height: 720px; /* Ajusta la altura como prefieras */
+  border-radius: 55px;
+  overflow: hidden;
+  position: relative;
+  top: 35px;
+  left: 33px;
+}
+
+.first-image img {
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta la imagen para que no se deforme */
+}
+
+.text-container {
+  font-family: "Cactus Classical Serif", serif;
+  font-weight: 500;
+  font-size: 35px;
+  font-style: normal;
+  text-align: center;
+  color: #887bb0;
+  background-color: white;
+  padding: 1em;
+  border-radius: 55px;
+  position: absolute;
+  top: 160px;
+  left: 587px;
+  height: 480px;
+  width: 800px;
+}
+
+.first-section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  z-index: 2;
+  position: relative;
+  flex-direction: column;
+}
+
+.second-section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: #f9f1f0;
+  z-index: 1;
+  position: relative;
+  flex-direction: column;
+}
+
+.links-container {
+  display: flex;
+  justify-content: center;
+  align-items:stretch;
+  gap: 1em;
+  position: relative;
+  top: 73px;
+  left: 115px;
+  width: 600px;
+  height: 600px;
+  padding: 1em;
+  background-color: #f9f1f0;
+  color: white;
+  flex-direction: column;
+  gap: 65px;
+}
+
+.button {
+  font-family: "Cactus Classical Serif", serif;
+  font-weight: 500;
+  font-size: 23px;
+  font-style: normal;
+  text-align: center;
+  color: #887bb0;
+  background-color: #f9f1f0;
+  padding: 0.5em 1em;
+  border-radius: 55px;
+  border: none;
+  cursor: pointer;
+  border: 5px solid #887bb0;
+  height: 70px;
+  padding: 0px 0px;
+  cursor: 
+  transition: background-color 1s, color 1s, transform 1s;
+}
+
+.button:hover {
+  background-color: #887bb0;
+  color: white;
+  border: 5px solid #f9f1f0;
+  transform: scale(1.05);
+}
+
+.second-image {
+  background-image: url("assets/segunda.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 450px;
+  height: 650px;
+  border-radius: 55px;
+  position: absolute;
+  top: 65px;
+  right: 150px;
+}
+
+.second-image img {
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 55px;
+}
+
+.third-section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: #f9f1f0;
+  z-index: 5;
+  position: relative;
+  flex-direction: column;
+}
+
+.third-image {
+  background-image: url("assets/Diseño\ sin\ título\ \(6\).png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: auto;
+  position: relative;
+}
+
+.third-image img {
+  z-index: 1000;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.text-container2 {
+  font-family: "Cactus Classical Serif", serif;
+  font-weight: 500;
+  font-size: 70px;
+  font-style: normal;
+  text-align: left;;
+  color: #000000;
+  padding: 0em;
+  position: absolute;
+  height: auto;
+  width: auto;
+  margin-top: 0px;
+  margin-left: 70px;
+}
+
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
